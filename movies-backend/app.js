@@ -29,7 +29,7 @@ mongoose
   .then(() =>
     app.listen(5000, () => {
       console.log("CONNECTED TO DATABASE");
-      console.log("Server running on http://localhost:5000");
+      console.log("Server running on https://movies-webapplication.onrender.com/");
     }),
   )
   .catch((error) => console.log("Database connection error:", error));
